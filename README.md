@@ -38,6 +38,8 @@ RtlQueueApcWow64Thread is used when dealing with a wow64.
 
 ---
 
+### Getting started
+
 Include "Start Routine.h" and the compiled library or this project, map your shellcode and call StartRoutine or StartRoutine_WOW64 depending on the architecture of the target process.
 An indepth description of the StartRoutine(_WOW64) arguments can be found in "Start Routine.h".
 "Error.h" contains all possible error values and their respective meanings.
