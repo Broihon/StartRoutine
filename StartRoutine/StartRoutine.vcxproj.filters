@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\native">
+      <UniqueIdentifier>{369f3ac6-edb6-423e-bf0c-7c57ab28c7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\internal">
+      <UniqueIdentifier>{bef33dc7-92c1-4aa2-9f1e-3de542cac5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\native\methods">
+      <UniqueIdentifier>{a1344cda-94f3-4996-8945-0c5a302ab14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\wow64">
+      <UniqueIdentifier>{a6748b95-c1de-4b5b-8759-e76df7a069ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\wow64\methods">
+      <UniqueIdentifier>{bc8fdd06-d54d-4c45-832f-6bfc1a91b849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\internal\methods">
+      <UniqueIdentifier>{b84be8f8-45c8-4093-846f-6d53fc3467d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\internal">
+      <UniqueIdentifier>{689179f2-cc07-4c20-8177-a6b90dff0a76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NtCreateThreadEx WOW64.cpp">
+      <Filter>Quelldateien\wow64\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="QueueUserAPC WOW64.cpp">
+      <Filter>Quelldateien\wow64\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="SetWindowsHookEx WOW64.cpp">
+      <Filter>Quelldateien\wow64\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread Hijacking WOW64.cpp">
+      <Filter>Quelldateien\wow64\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread Hijacking.cpp">
+      <Filter>Quelldateien\native\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="NtCreateThreadEx.cpp">
+      <Filter>Quelldateien\native\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="QueueUserAPC.cpp">
+      <Filter>Quelldateien\native\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="SetWindowsHookEx.cpp">
+      <Filter>Quelldateien\native\methods</Filter>
+    </ClCompile>
+    <ClCompile Include="Start Routine.cpp">
+      <Filter>Quelldateien\native</Filter>
+    </ClCompile>
+    <ClCompile Include="Start Routine WOW64.cpp">
+      <Filter>Quelldateien\wow64</Filter>
+    </ClCompile>
+    <ClCompile Include="Process Info.cpp">
+      <Filter>Quelldateien\internal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Start Routine.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="NtCreateTheadEx.h">
+      <Filter>Headerdateien\internal\methods</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueUserAPC.h">
+      <Filter>Headerdateien\internal\methods</Filter>
+    </ClInclude>
+    <ClInclude Include="SetWindowsHookEx.h">
+      <Filter>Headerdateien\internal\methods</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread Hijacking.h">
+      <Filter>Headerdateien\internal\methods</Filter>
+    </ClInclude>
+    <ClInclude Include="StartRoutine_internal.h">
+      <Filter>Headerdateien\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="NT Stuff.h">
+      <Filter>Headerdateien\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Process Info.h">
+      <Filter>Headerdateien\internal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
